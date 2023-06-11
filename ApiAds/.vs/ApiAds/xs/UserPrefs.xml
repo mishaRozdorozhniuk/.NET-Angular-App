@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{67046615-5085-4DB4-BFE5-B8A60B7159C6}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/AdServices.cs">
+    <Files>
+      <File FileName="appsettings.json" Line="9" Column="2" IsPinned="True" />
+      <File FileName="Abstract/DataServicesMessage.cs" Line="1" Column="1" IsPinned="True" />
+      <File FileName="DAL/Extentions.cs" Line="20" Column="2" />
+      <File FileName="appsettings.Development.json" Line="8" Column="4" />
+      <File FileName="Program.cs" Line="26" Column="1" />
+      <File FileName="DAL/DatabaseInitializer.cs" Line="19" Column="6" />
+      <File FileName="Controllers/Request/AdRequest.cs" Line="11" Column="1" />
+      <File FileName="Controllers/AdsControllers.cs" Line="17" Column="1" />
+      <File FileName="Services/AdServices.cs" Line="46" Column="86" />
+      <File FileName="DAL/AdsContext.cs" Line="17" Column="72" />
+      <File FileName="DAL/Configurations/AdsConfigurations.cs" Line="1" Column="1" />
+      <File FileName="Models/Ad.cs" Line="8" Column="32" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ApiAds" expanded="True">
+            <Node name="ApiAds" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="Request" expanded="True" />
+              </Node>
+              <Node name="DAL" expanded="True">
+                <Node name="Configurations" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="AdServices.cs" selected="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ApiAds PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

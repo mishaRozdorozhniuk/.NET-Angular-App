@@ -1,0 +1,36 @@
+<form class="create-ad" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="name">Name:</label>
+    <input placeholder="Name" type="text" id="name" name="name" [(ngModel)]="ad.name" required>
+  </div>
+  <div>
+    <label for="photoLink">Photo Link:</label>
+    <input placeholder="Photo Link" type="text" id="photoLink" name="photoLink" [(ngModel)]="ad.photoLink" required>
+  </div>
+  <div>
+    <label for="price">Price:</label>
+    <input placeholder="Price" type="number" id="price" name="price" [(ngModel)]="ad.price" required>
+  </div>
+  <button type="submit">Submit</button>
+</form>
+
+<button class="get-all-ads" (click)="getAllAds()">Get all Ads</button>
+
+<ul>
+  <li *ngFor="let ad of ads" style="border: 1px solid black; margin: 15px; padding: 15px; list-style-type: none">
+    <h3>{{ ad.name }}</h3>
+    <img [src]="ad.photoLink" alt="Ad Image">
+    <p>Price: {{ ad.price }}</p>
+  </li>
+</ul>
+
+<form (ngSubmit)="getAdByGid()">
+  <input type="text" [(ngModel)]="adGid" name="adGid">
+  <button type="submit">Get Ad By id</button>
+</form>
+
+<article>
+  <h3>{{ adById.name }}</h3>
+  <img [src]="adById.photoLink" alt="Ad Image">
+  <p>Price: {{ adById.price }}</p>
+</article>
